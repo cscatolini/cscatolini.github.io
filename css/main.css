@@ -54,3 +54,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.about-img {
+    border-radius: 100%;
+}
