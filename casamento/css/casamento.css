@@ -201,7 +201,7 @@ section h2 {
 
 section.primary {
     color: #fff;
-    background:     #5dbcd2;
+    background: #5dbcd2;
 }
 
 section.primary a,
@@ -495,5 +495,58 @@ footer .footer-below {
     display: inline;
     margin: 0 10px;
     font-size: 1.5em;
-    color: #2c3e50;
+    color: #fff;
 }
+
+.header-wrapper {
+    display: flex;
+}
+
+.header-wrapper > h3 {
+    margin: 16px auto 0;
+}
+
+.payment-header {
+    margin-left: -32px;
+}
+
+.payment-buttons-container {
+    margin: 32px 0;
+}
+
+.small-font > p {
+    font-size: 14px;
+}
+
+input::-webkit-input-placeholder {
+color: #fff !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;
+}
+
+input:-ms-input-placeholder {
+color: #fff !important;
+}
+
+textarea::-webkit-input-placeholder {
+color: #fff !important;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;
+}
+
+textarea:-ms-input-placeholder {
+color: #fff !important;
+}
+
